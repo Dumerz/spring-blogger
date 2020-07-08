@@ -1,0 +1,12 @@
+## Spring JPA Hibernate Properties
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.show-sql=true
+spring.jpa.generate-ddl=true
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.open-in-view=true
+
+## Spring Datasource Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/YOUR_DATABASE_HERE
+spring.datasource.username=YOUR_USER_NAME_HERE
+spring.datasource.password=YOUR_PASSWORD_HERE
